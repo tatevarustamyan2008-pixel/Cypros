@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cyprus Travel Guide</title>
+  <meta name="description" content="Discover Cyprus: beaches, culture, wine routes, nature, and practical travel info." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Home">
+      <img src="cypros_logo.jpg" alt="" class="logo" />
+      <span data-i18n="brand">Cyprus Travel Guide</span>
+    </a>
+ 
+    <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#highlights" data-i18n="nav.highlights">Highlights</a></li>
+        <li><a href="#regions" data-i18n="nav.regions">Regions & Cities</a></li>
+        <li><a href="#experiences" data-i18n="nav.experiences">Experiences</a></li>
+        <li><a href="#practical" data-i18n="nav.practical">Practical Info</a></li>
+      </ul>
+    </nav>
+ 
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button data-lang="en" class="lang-btn" aria-pressed="true">EN</button>
+      <button data-lang="ru" class="lang-btn" aria-pressed="false">RU</button>
+      <button data-lang="hy" class="lang-btn" aria-pressed="false">HY</button>
+    </div>
+  </header>
+ 
+  <main>
+    <section class="hero" style="background-image: url(glx.jpg);">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <h1 data-i18n="hero.title">Cyprus: A Fusion of Experiences</h1>
+        <p data-i18n="hero.subtitle">Sun-kissed beaches, mountain trails, ancient sites, and vibrant cuisine—year-round.</p>
+        <a href="#highlights" class="btn" data-i18n="hero.cta">Explore Highlights</a>
+      </div>
+      <div class="hero-credit">
+        <span data-i18n="hero.credit">Photos: Cyprus coast & Troodos Mountains</span>
+      </div>
+    </section>
+ 
+    <section id="highlights" class="section">
+      <h2 data-i18n="highlights.title">Top Highlights</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="covap.jpg" alt="Beach" />
+          <h3 data-i18n="highlights.beaches.title">Beaches</h3>
+          <p data-i18n="highlights.beaches.text">Blue Flag beaches with crystal waters in Ayia Napa, Protaras, and beyond.</p>
+        </article>
+        <article class="card">
+          <img src="culture.jpg" alt="Ancient Culture" />
+          <h3 data-i18n="highlights.culture.title">Ancient Culture</h3>
+          <p data-i18n="highlights.culture.text">Walk among Greco‑Roman theaters, mosaics, and UNESCO sites in Paphos and Kourion.</p>
+        </article>
+        <article class="card">
+          <img src="nature.jpg" alt="Nature & Trails" />
+          <h3 data-i18n="highlights.nature.title">Nature & Trails</h3>
+          <p data-i18n="highlights.nature.text">Hike coastal cliffs and Troodos pine forests; seasonal snow on Mount Olympus.</p>
+        </article>
+        <article class="card">
+          <img src="wine.jpg" alt="Wine & Gastronomy" />
+          <h3 data-i18n="highlights.gastronomy.title">Wine & Gastronomy</h3>
+          <p data-i18n="highlights.gastronomy.text">Taste Commandaria, village wines, halloumi, meze, and fresh seafood.</p>
+        </article>
+      </div>
+    </section>
+    <section id="regions" class="section alt">
+      <h2 data-i18n="regions.title">Regions & Cities</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="nikosia.jpg" alt="Nicosia" />
+          <h3 data-i18n="regions.nicosia.title">Nicosia (Lefkosia)</h3>
+          <p data-i18n="regions.nicosia.text">A living museum with Venetian walls, museums, and the Green Line crossing.</p>
+        </article>
+        <article class="card">
+          <img src="limasol.jpg" alt="Limassol" />
+          <h3 data-i18n="regions.limassol.title">Limassol (Lemesos)</h3>
+          <p data-i18n="regions.limassol.text">Seafront city with a lively marina, festivals, and access to wine villages.</p>
+        </article>
+        <article class="card">
+          <img src="larnanka.jpg" alt="Larnaca" />
+          <h3 data-i18n="regions.larnaca.title">Larnaca</h3>
+          <p data-i18n="regions.larnaca.text">Palm-lined promenades, Agios Lazaros Church, and easy airport access.</p>
+        </article>
+        <article class="card">
+          <img src="pafos.jpg" alt="Paphos" />
+          <h3 data-i18n="regions.paphos.title">Paphos</h3>
+          <p data-i18n="regions.paphos.text">UNESCO‑listed mosaics, Tombs of the Kings, Akamas Peninsula nature.</p>
+        </article>
+        <article class="card">
+          <img src="aya.jpg" alt="Ayia Napa" />
+          <h3 data-i18n="regions.ayia.title">Ayia Napa & Protaras</h3>
+          <p data-i18n="regions.ayia.text">Famous beaches, sea caves, Cape Greco National Forest Park.</p>
+        </article>
+        <article class="card">
+          <img src="trodos.jpg" alt="Troodos" />
+          <h3 data-i18n="regions.troodos.title">Troodos Mountains</h3>
+          <p data-i18n="regions.troodos.text">Byzantine painted churches, cool summers, and winter snow.</p>
+        </article>
+      </div>
+    </section>
+ 
+    <section id="experiences" class="section">
+      <h2 data-i18n="experiences.title">Experiences</h2>
+      <ul class="bullet-cols">
+        <li data-i18n="experiences.item1">Diving and snorkeling in clear Mediterranean waters.</li>
+        <li data-i18n="experiences.item2">Cycling routes across villages and coastlines.</li>
+        <li data-i18n="experiences.item3">Religious and cultural routes across historic monasteries.</li>
+        <li data-i18n="experiences.item4">Family activities, waterparks, and gentle nature trails.</li>
+        <li data-i18n="experiences.item5">Local festivals, wine harvests, and village gastronomy.</li>
+      </ul>
+    </section>
+ 
+    <section id="practical" class="section alt">
+      <h2 data-i18n="practical.title">Practical Information</h2>
+      <div class="grid-2">
+        <div>
+          <h3 data-i18n="practical.weather.title">Climate & Best Time</h3>
+          <p data-i18n="practical.weather.text">Mediterranean climate: long dry summers, mild winters. Spring and autumn balance warmth and crowds.</p>
+        </div>
+        <div>
+          <h3 data-i18n="practical.transport.title">Transport</h3>
+          <p data-i18n="practical.transport.text">Airports in Larnaca and Paphos. Buses connect major towns; renting a car offers most flexibility (left‑side driving).</p>
+        </div>
+        <div>
+          <h3 data-i18n="practical.entry.title">Entry & Currency</h3>
+          <p data-i18n="practical.entry.text">EU member; entry rules vary by nationality. Currency: Euro (€). Check official guidance before travel.</p>
+        </div>
+        <div>
+          <h3 data-i18n="practical.safety.title">Health & Safety</h3>
+          <p data-i18n="practical.safety.text">Generally safe; standard precautions apply. Tap water is treated in cities; bottled water widely available.</p>
+        </div>
+      </div>
+      <p class="note" data-i18n="practical.note">
+        Tip: For latest arrivals data and events, see official statistics and the tourism portal.
+      </p>
+      <ul class="links">
+        <li><a href="https://www.visitcyprus.com/" target="_blank" rel="noopener">Visit Cyprus (Official)</a></li>
+        <li><a href="https://www.cystat.gov.cy/en/SubthemeStatistics?s=51" target="_blank" rel="noopener">CYSTAT Tourism Statistics</a></li>
+      </ul>
+    </section>
+  </main>
+ 
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> <span data-i18n="brand">Cyprus Travel Guide</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+  </footer>
+ 
+  <script src="content.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
